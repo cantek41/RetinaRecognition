@@ -26,10 +26,11 @@
 
 ## imageToGraph
 gri resmi alıp onu binaryi ye çevirir, kodun orjinal kaynağı aşağıdaki linktedir. 
+[kaynak](https://github.com/getsanjeev/retina-features/blob/master/bloodvessels.py)
+
 
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/A01_1.jpg" align="right" width="200">
-<img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/A01_1_bloodvessel.jpg" width="200">
-[kaynak](https://github.com/getsanjeev/retina-features/blob/master/bloodvessels.py)
+<img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/A01_1_bloodvessel.png"   align="right" width="200">
 
 ## thinnig
 binary image ın iskeletini çıkartır 
@@ -39,16 +40,24 @@ binary image ın iskeletini çıkartır
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/wwws4.png" align="right" width="200">
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/graphh.png" align="right" width="200">
 
+
+
+
+
 ## toGraph
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/wwwsde.png" align="right" width="200">
 ToGraph : burada iskeleti çıkartılmış resim üzerindeki vertexler bulunur
 minutiae_at algoritması kullanılır
 [kaynak](https://github.com/rtshadow/biometrics/blob/master/crossing_number.py)
 
+
+
 ## gabolFilter
 Vertexleri bulunmuş olan Graph ın edge lerini belirler
 [kaynak](http://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html#sphx-glr-auto-examples-edges-plot-skeleton-py)
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/wwwsd.png" align="right" width="200">
+
+
 
 ## utility
 Graphı image gibi konumlandılmış şeklinde export etmeyi sağlar.
