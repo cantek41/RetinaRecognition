@@ -13,7 +13,6 @@ def minutiae_at(pixels, i, j):
         return "none"
 
     values = [int(pixels[i + k][j + l]) for k, l in cells]
-    # print(values)
 
     crossings = 0
     for k in range(0, 8):
@@ -57,24 +56,11 @@ def toGraph(imagearray):
                 if minutiae == "ending":
                     cv2.circle(result, (i, j), 10, (0, 0, 150))
                 elif minutiae == "cross":
-                    # tmparray.append(tmp)
-                    G.add_node((i,j))
+                    G.add_node((i, j))
                     index +=1
                     cv2.circle(result, (i, j), 10, (0, 150, 0), -1)
                 else:
-                # elif minutiae == "bifurcation":
                     cv2.line(result, (i, j), (i + 1, j + 1), (150, 0, 0))
-    # for i in range(1, xLen - 1):
-    #     for j in range(1, yLen - 1):
-    #         minutiae = minutiae_at(imagearray, i, j)
-    #         if minutiae != "none":
-    #             if minutiae == "ending":
-    #                 # G.add_node()
-    #                 cv2.circle(result,(i,j),10,(0,0,150))
-    #             elif minutiae == "cross":
-    #                 cv2.circle(result,(i,j),2,(0,150,0),-1)
-    #             elif minutiae == "bifurcation" :
-    #                 cv2.line(result,(i,j),(i+1,j+1),(150,0,0))
     cv2.imwrite("image/wwwsde.png", result)
     return G
 
@@ -89,26 +75,3 @@ if __name__ == "__main__":
     binaryimage = gabolFilter._floodfill(src)
     Bgraph = toGraph(binaryimage)
     draw(Bgraph)
-
-    # cv2.imshow("Bgraph", cv2.resize(Bgraph, (600, 600)))
-    # cv2.waitKey()
-    # cv2.imwrite("image/wwwsd.png", Bgraph)
-    # (xLen, yLen) = src.shape
-    # print(xLen, yLen)
-# skeletonB = mh.thin(src)
-# Bgraph = C8skeleton_to_graph(skeletonB)
-# cv2.imshow("Bgraph", cv2.resize(Bgraph, (600, 600)))
-
-# skeletonH = mh.thin(imH)
-# Hgraph = C8skeleton_to_graph(skeletonH)
-
-# figsize(6, 6)
-# subplot(221, xticks=[]
-#         , yticks=[])
-# imshow(imB, interpolation='nearest')
-# subplot(222, xticks=[], yticks=[])
-# nx.draw(Bgraph)
-# subplot(223, xticks=[], yticks=[])
-# imshow(imH, interpolation='nearest')
-# subplot(224, xticks=[], yticks=[])
-# nx.draw(Hgraph)

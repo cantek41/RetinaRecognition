@@ -8,20 +8,12 @@ import matplotlib.pyplot as plt
 
 class AlgBody():
     def __init__(self):
-        self.name = "Guo Hall Graph Detection"
-        self.parent = "Graph Detection"
         self.result = {"img": None, "graph": None, "skeleton": None}
     def process(self, args):
-        # create a skeleton
         skeleton = args[2]
         image = args[0]
-        # detect nodes
-        # graph = zhang_suen_node_detection(skeleton)
         graph = ToGraph.toGraph(skeleton)
-        # detect edges
-        # graph = breadth_first_edge_detection(skeleton, gray_img, graph)
         graph = breadth_first_edge_detection(skeleton, image, graph)
-        #skeleton = cv2.cvtColor(skeleton, cv2.COLOR_GRAY2BGR)
         self.result['graph'] = graph
         self.result['img'] = image
 
@@ -31,8 +23,6 @@ def breadth_first_edge_detection(skel, segmented, graph):
         width, height = skel.shape
         for dy in [-1, 0, 1]:
             for dx in [-1, 0, 1]:
-                # the line below is ugly and is intended to be this way
-                # do not try to modify it unless you know what you're doing
                 if (dx != 0 or dy != 0) and \
                                         0 <= x + dx < width and \
                                         0 <= y + dy < height and \

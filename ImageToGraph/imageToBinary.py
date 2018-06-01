@@ -31,8 +31,7 @@ def extract_bv(image):
     ret, fin = cv2.threshold(im, 15, 255, cv2.THRESH_BINARY_INV)
     newfin = cv2.erode(fin, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5)), iterations=2)
 
-    # removing blobs of unwanted bigger chunks taking in consideration they are not straight lines like blood
-    # vessels and also in an interval of area
+
     fundus_eroded = cv2.bitwise_not(newfin)
     xmask = np.ones(image.shape[:2], dtype="uint8") * 255
     x1, xcontours, xhierarchy = cv2.findContours(fundus_eroded.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
@@ -56,8 +55,8 @@ def extract_bv(image):
 
 
 if __name__ == "__main__":
-    pathFolder = "image/"
-    destinationFolder = "image/"
+    pathFolder = "../image/"
+    destinationFolder = "../image/"
     file_name = "A01_1.jpg"
     file_name_no_extension = os.path.splitext(file_name)[0]
     fundus = cv2.imread(pathFolder + '/' + file_name)

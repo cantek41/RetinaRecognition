@@ -27,8 +27,8 @@ def similarty(graph):
 
 if __name__ == "__main__":
     print("Başlıyor...")
-    # G = createGraph()
-    G = nx.read_gml('graph.gml')
+    G = createGraph()
+    # G = nx.read_gml('graph.gml')
     similarty(G)
 
 

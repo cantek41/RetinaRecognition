@@ -9,7 +9,7 @@ def _floodfill(image):
     bw = np.asarray(thresh1, dtype=np.bool)
     skeleton = skeletonize(bw)
     if __name__ == "__main__":
-        fig, axes = plt.subplots(2, 2, figsize=(8, 8), sharex=True, sharey=True)
+        fig, axes = plt.subplots(2, 1, figsize=(8, 8), sharex=True, sharey=True)
         ax = axes.ravel()
         ax[0].imshow(image, cmap=plt.cm.gray, interpolation='nearest')
         ax[0].set_title('original')
@@ -23,15 +23,7 @@ def _floodfill(image):
 
 if __name__ == "__main__":
     src = cv2.imread("../image/www.png", cv2.THRESH_BINARY)
-    # cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
     bw2 =  _floodfill(src)
-    # bw2 = skeletonize(bw)
-    # print(bw2)
-
     wimage = img_as_ubyte(bw2)
-    # wimage = cv2.imdecode(bw2, cv2.THRESH_BINARY)
-    # cv2.imshow("src", cv2.resize(bw2, (600, 600)))
-    # cv2.imshow("thinning",cv2.resize(bw2, (600, 600)))
     cv2.imwrite("../image/wwws4.png", wimage)
-    # cv2.waitKey()
 
