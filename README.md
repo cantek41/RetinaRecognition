@@ -26,12 +26,11 @@
 
 ## imageToGraph
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/A01_1.jpg" align="right" width="200">
-<img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/A01_1_bloodvessel.png"   align="right" width="200">
+<img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/A01_1_bloodvessel.png"   width="200">
 
 gri resmi alıp onu binaryi ye çevirir, kodun orjinal kaynağı aşağıdaki linktedir. 
 [kaynak](https://github.com/getsanjeev/retina-features/blob/master/bloodvessels.py)
 
-<br>
 
 
 
