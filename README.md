@@ -13,7 +13,7 @@
 - **`Dosya Yapısı`**
     - **ImageToGraph**
       - [imageToBinary](#imageToGraph)  
-      - [gou_hall_Thinning](#thinnig)
+      - [gou_hall_Thinning](#thinning)
       - [ToGraph](#toGraph)
       - [gabolFilter](#gabolFilter)
       - [Utility](#utility)
@@ -31,11 +31,12 @@
 gri resmi alıp onu binaryi ye çevirir, kodun orjinal kaynağı aşağıdaki linktedir. 
 [kaynak](https://github.com/getsanjeev/retina-features/blob/master/bloodvessels.py)
 
+<br>
 
 
 
-## thinnig
-<img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/wwws4.png"   width="200">
+## thinning
+<img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/wwws4.png" align="right"   width="200">
 <img src="https://github.com/cantek41/RetinaRecognition/blob/master/image/graphh.png"   width="200">
 
 binary image ın iskeletini çıkartır 
