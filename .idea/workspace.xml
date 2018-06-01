@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7149f3f-d0ca-44bc-9476-403ef0b577dd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Similarty/CosSimilarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Similarty/Eigenvector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Similarty/FactorySimilarity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageToGraph/ToGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageToGraph/utility.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/face_dete.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/foto.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gabolFilter.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageToGraph/gabolFilter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grsph.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guo_hall.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageToGraph/guo_hall_Thinning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/haarcascade-eye.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/haarcascade-frontalface-default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/imageToBinary.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageToGraph/imageToBinary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/retina.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thining.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -87,33 +66,41 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="391">
-                <caret line="29" column="94" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+              <first_editor relative-caret-position="177">
+                <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="wwwsde.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/wwwsde.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="wwwsd.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/wwwsd.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="wwws4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/wwws4.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="www4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image/www4.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
       <file leaf-file-name="utility.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageToGraph/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-1863">
               <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#55#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="guo_hall_Thinning.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ImageToGraph/guo_hall_Thinning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="869">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-              <folding>
-                <element signature="e#400#410#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -385,7 +372,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.15331928" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49891067" visible="true" weight="0.15331928" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5052687" side_tool="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
@@ -393,7 +380,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49841937" weight="0.32897604" />
       <window_info id="Structure" order="1" sideWeight="0.50108933" side_tool="true" weight="0.24973656" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49367756" visible="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49367756" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" sideWeight="0.50108933" side_tool="true" weight="0.24973656" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -413,30 +400,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ImageToGraph/guo_hall_Thinning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3995">
-          <caret line="241" column="34" selection-start-line="241" selection-start-column="34" selection-end-line="241" selection-end-column="34" />
-          <folding>
-            <element signature="e#400#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageToGraph/imageToBinary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ImageToGraph/gabolFilter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python3/Lib/site-packages/skimage/morphology/_skeletonize.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -650,9 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image/wwws4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/image/img.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -687,16 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImageToGraph/guo_hall_Thinning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="e#400#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImageToGraph/imageToBinary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="934">
@@ -717,15 +667,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ImageToGraph/guo_hall_Thinning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2849">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#400#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ImageToGraph/utility.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="-1863">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#55#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/www4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/wwws4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/wwwsd.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image/wwwsde.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
@@ -735,8 +707,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="391">
-            <caret line="29" column="94" selection-start-line="29" selection-start-column="94" selection-end-line="29" selection-end-column="94" />
+          <first_editor relative-caret-position="177">
+            <caret line="39" column="82" lean-forward="true" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
           </first_editor>
           <second_editor />
         </state>
