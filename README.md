@@ -68,4 +68,3 @@ Graphı image gibi konumlandılmış şeklinde export etmeyi sağlar.
 * pip install numpy
 * pip install matplotlib
 
-Cantekin Çelihası
