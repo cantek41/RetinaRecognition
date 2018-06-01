@@ -1,6 +1,3 @@
-"""
-Various help functions for processing results.
-"""
 import cv2
 import numpy
 from ImageToGraph import guo_hall_Thinning
@@ -11,35 +8,12 @@ EDGETRANSPARENCY = False
 
 
 def draw_graph(image, graph):
-    """
-    Draw the graph on the image by traversing the graph structure.
-
-    Args:
-        | *image* : the image where the graph needs to be drawn
-        | *graph* : the *.txt file containing the graph information
-
-    Returns:
-
-    """
     tmp = draw_edges(image, graph)
     node_size = int(numpy.ceil((max(image.shape) / float(NODESIZESCALING))))
     return draw_nodes(tmp, graph, max(node_size, 1))
 
 
 def draw_nodes(img, graph, radius=1):
-    """
-    Draw all nodes on the input image.
-
-    Args:
-        | *img* : Input image where nodes are drawn
-        | *graph* : Input graph containing the nodes
-
-    Kwargs:
-        | *radius* : Radius of drawn nodes
-
-    Returns:
-        Input image img with nodes drawn into it
-    """
     for x, y in graph.nodes_iter():
         cv2.circle(img, (y - radius, x - radius), 5,
                    (0, 150, 0), -1)
@@ -49,18 +23,6 @@ def draw_nodes(img, graph, radius=1):
 
 
 def draw_edges(img, graph, col=(0, 0, 255)):
-    """
-    Draw network edges on the input image.
-
-    Args:
-        | *img* : Input image where edges are drawn
-        | *graph* : Input graph containing the edges
-    Kwargs:
-        | *col* : colour for drawing
-
-    Returns:
-        Input image img with nodes drawn into it
-    """
     (yLen, xLen) = img.shape
 
     edg_img = numpy.zeros((xLen, yLen), numpy.uint8)
@@ -119,11 +81,6 @@ def draw_edges(img, graph, col=(0, 0, 255)):
     return edg_img
 
 def find_max_edge_deviation(graph):
-    """
-    This methode calculates for each edge its standard deviation and also
-    tracks the maximum standard deviation among all edges.
-    The maximum standard deviation will then be stored in the graph.
-    """
     max_standard_deviation = 0
     for (x1, y1), (x2, y2) in graph.edges_iter():
         deviation = graph[(x1, y1)][(x2, y2)]['width_var']

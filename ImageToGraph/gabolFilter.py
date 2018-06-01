@@ -6,16 +6,8 @@ from skimage import img_as_ubyte
 
 def _floodfill(image):
     ret, thresh1 = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY_INV)
-    # b = imageToBinary.extract_bv(src)
     bw = np.asarray(thresh1, dtype=np.bool)
     skeleton = skeletonize(bw)
-
-    # cv2.imshow("skeleton", cv2.resize(skeleton, (600, 600)))
-
-    # thinned = thin(image)
-    # thinned_partial = thin(image, max_iter=25)
-    # cv2.imshow("thinned", cv2.resize(thinned, (600, 600)))
-    # cv2.imshow("thinned_partial", cv2.resize(thinned_partial, (600, 600)))
     if __name__ == "__main__":
         fig, axes = plt.subplots(2, 2, figsize=(8, 8), sharex=True, sharey=True)
         ax = axes.ravel()
@@ -25,7 +17,6 @@ def _floodfill(image):
         ax[1].imshow(skeleton, cmap=plt.cm.gray, interpolation='nearest')
         ax[1].set_title('skeleton')
         ax[1].axis('off')
-
         fig.tight_layout()
         plt.show()
     return skeleton

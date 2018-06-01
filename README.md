@@ -44,7 +44,7 @@ minutiae_at algoritması kullanılır
 [kaynak](https://github.com/rtshadow/biometrics/blob/master/crossing_number.py)
 
 ## gabolFilter
-![image](https://github.com/cantek41/RetinaRecognition/blob/master/image/wwwsd.png)
+![image](https://github.com/cantek41/RetinaRecognition/blob/master/image/wwwsd.png =100x100)
 
 Vertexleri bulunmuş olan Graph ın edge lerini belirler
 [kaynak](http://scikit-image.org/docs/dev/auto_examples/edges/plot_skeleton.html#sphx-glr-auto-examples-edges-plot-skeleton-py)

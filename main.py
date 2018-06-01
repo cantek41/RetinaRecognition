@@ -15,25 +15,20 @@ def createGraph():
 
 def similarty(graph):
     print("size : ", graph.number_of_nodes())
-
     print("==========================================")
-
     similartyEigenvector = SimilarityFactory.create(SIMILARITY.Eigenvector, graph, graph)
     print("Eigenvector benzerlik oranı", similartyEigenvector.getSimilarity())
 
     print("==========================================")
-
     similartyCos = SimilarityFactory.create(SIMILARITY.Cosinus, graph, graph)
     print("Cos benzerlik oranı", similartyCos.getSimilarity())
-
-
     # cv2.waitKey()
 
 
 if __name__ == "__main__":
     print("Başlıyor...")
-    G = createGraph()
-    # G = nx.read_gml('graph.gml')
+    # G = createGraph()
+    G = nx.read_gml('graph.gml')
     similarty(G)
 
 
