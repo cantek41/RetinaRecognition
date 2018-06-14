@@ -1,5 +1,5 @@
-# ReadMe
-
+# ReadMe 
+Retina Recognition , retina tanıma
 > Bu proje retina görüntüsünü alır ve sırsı ile
 
 * Resmi gray yap
